@@ -27,4 +27,5 @@ export class TweetService {
     return this.http.delete<any>("https://tweetapp-backendapp.azurewebsites.net/api/v1.0/tweets/"+this.user+"/delete/"+del);
   }
 
+  
 }
